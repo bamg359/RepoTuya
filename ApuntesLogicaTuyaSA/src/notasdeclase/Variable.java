@@ -41,5 +41,13 @@ public class Variable {
         System.out.println(promedioConv);
 
 
+        //Tipos de datos
+
+
+        float nota = 4.5f;
+
+        long bigNumber = 232545884555654l;
+
+
     }
 }

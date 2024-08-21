@@ -14,22 +14,23 @@ public class Login {
         String userName = "pp@mail.com";
         int key = 1234;
         String nameUser = "Pepito";
+        String phone = "3214567890";
 
 
         // INterfaz
-        System.out.println("INgrese su Usuario");
 
-        String userInput = sc.nextLine();
+        System.out.println("Ingrese su teléfono o su usuario");
 
-        System.out.println("INgrese su password");
+        String input = sc.nextLine();
+
+        System.out.println("Ingrese su password");
 
         int keyInput = sc.nextInt();
 
 
-        if(userName.equals(userInput) && key == keyInput){
+        if((userName.equals(input) || phone.equals(input)) && key == keyInput){
 
             System.out.println("Bienvenido " + nameUser);
-
 
         }else{
 
